@@ -36,11 +36,19 @@ Before running the app, ensure you have the following installed:
    pip install -r requirements.txt
    ```
 5. **Set Up the Database Run the following commands to set up the database:**
-   ```python manage.py migrate```
+   ```
+   python manage.py migrate
+   ```
 7. **Create a Superuser Create an admin account to access the Django admin interface:**
-   ```python manage.py createsuperuser```
+   ```
+   python manage.py createsuperuser
+   ```
 9. **Run the Development Server Start the Django development server:**
-    ```python manage.py runserver```
+    ```
+   python manage.py runserver
+    ```
 11. **Access the Application Open your browser and go to:**
-    ```http://127.0.0.1:8000/```
+    ```
+    http://127.0.0.1:8000/
+    ```
 
