@@ -32,7 +32,9 @@ Before running the app, ensure you have the following installed:
    source venv/bin/activate   # On Windows: venv\Scripts\activate
    ```
 3. **Install dependencies**
-   ```pip install -r requirements.txt```
+   ```
+   pip install -r requirements.txt
+   ```
 5. **Set Up the Database Run the following commands to set up the database:**
    ```python manage.py migrate```
 7. **Create a Superuser Create an admin account to access the Django admin interface:**
